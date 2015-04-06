@@ -1,0 +1,98 @@
+PODS:
+  - AFNetworking (2.5.2):
+    - AFNetworking/NSURLConnection (= 2.5.2)
+    - AFNetworking/NSURLSession (= 2.5.2)
+    - AFNetworking/Reachability (= 2.5.2)
+    - AFNetworking/Security (= 2.5.2)
+    - AFNetworking/Serialization (= 2.5.2)
+    - AFNetworking/UIKit (= 2.5.2)
+  - AFNetworking/NSURLConnection (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.2)
+  - AFNetworking/Security (2.5.2)
+  - AFNetworking/Serialization (2.5.2)
+  - AFNetworking/UIKit (2.5.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - boost/math-includes (1.51.0a)
+  - boost/numeric-includes (1.51.0a)
+  - boost/pointer_cast-includes (1.51.0a)
+  - boost/preprocessor-includes (1.51.0a)
+  - boost/shared_ptr-includes (1.51.0a)
+  - clipper (6.1.3a)
+  - eigen (3.1.2):
+    - boost/numeric-includes
+    - boost/preprocessor-includes
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - glues (1.5)
+  - GoogleProtobuf (2.6.1)
+  - KissXML (5.0)
+  - libjson (7.6.1)
+  - proj4 (4.8.0)
+  - shapelib (1.3)
+  - SMCalloutView (2.1.2)
+  - tinyxml (2.1.0)
+  - WhirlyGlobe (2.3):
+    - WhirlyGlobe/MaplyComponent (= 2.3)
+  - WhirlyGlobe/Lib (2.3):
+    - clipper (= 6.1.3a)
+    - glues
+    - libjson
+    - proj4
+    - shapelib
+    - tinyxml
+    - WhirlyGlobe/Lib-Headers
+  - WhirlyGlobe/Lib-Headers (2.3):
+    - boost/math-includes (= 1.51.0a)
+    - boost/pointer_cast-includes (= 1.51.0a)
+    - boost/shared_ptr-includes (= 1.51.0a)
+    - eigen (= 3.1.2)
+  - WhirlyGlobe/MaplyComponent (2.3):
+    - AFNetworking
+    - FMDB
+    - GoogleProtobuf
+    - KissXML
+    - SMCalloutView
+    - WhirlyGlobe/Lib
+    - WhirlyGlobe/MaplyComponent-Headers
+  - WhirlyGlobe/MaplyComponent-Headers (2.3):
+    - WhirlyGlobe/Lib-Headers
+  - WhirlyGlobeResources (2.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.2)
+  - WhirlyGlobe (from `vendor`)
+  - WhirlyGlobeResources (= 2.3)
+
+EXTERNAL SOURCES:
+  WhirlyGlobe:
+    :path: vendor
+
+SPEC CHECKSUMS:
+  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
+  boost: a2cf67afefef2716c8603b6abe5c5d7a4a15c3da
+  clipper: b009ea56c501e756299e6999e2c73eef6e1ed218
+  eigen: b6c0b0fc3fd5a54ac681bda76bebe11487bb12fa
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  glues: f7d313786fbcb23018e2aa02417b00bd03d751b9
+  GoogleProtobuf: 6f0dd22a96385c13bb9b8e6e5b66e81a93e17f58
+  KissXML: ce643413d618ad69886d0d43c3792b7dedfe476e
+  libjson: 1a065ca64704a5d1b51c3754268998942d57ac6f
+  proj4: ff32602f9361e23308d186dbfed67cc0e708fe95
+  shapelib: 70f767e1e6484b824bd9986613afb66cb16e9df4
+  SMCalloutView: 4078d89b847731e514b1a919fed33b383a24a106
+  tinyxml: 41d718babd106ac5d39d4e98b43c835d3b9080d8
+  WhirlyGlobe: cddd363af8d37d368845a9c7b50283f299325501
+  WhirlyGlobeResources: d7b3e929e828f958a8477ff6797f962fdb165472
+
+COCOAPODS: 0.36.3

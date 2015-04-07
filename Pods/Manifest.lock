@@ -71,12 +71,12 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.2)
-  - WhirlyGlobe (from `vendor`)
+  - WhirlyGlobe (from `vendor/WhirlyGlobe.podspec.json`)
   - WhirlyGlobeResources (= 2.3)
 
 EXTERNAL SOURCES:
   WhirlyGlobe:
-    :path: vendor
+    :podspec: vendor/WhirlyGlobe.podspec.json
 
 SPEC CHECKSUMS:
   AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
